@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:id="@+id/textoTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_ingreso" />
+
+    <EditText
+        android:id="@+id/textoCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/correo_electronico"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/textoContra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/contra"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/botonIngreso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botonIngresoName" />
+
+    <Button
+        android:id="@+id/botonHuella"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingreso_con_huella" />
+
+</LinearLayout>

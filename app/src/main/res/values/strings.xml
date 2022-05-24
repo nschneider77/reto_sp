@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">App Sophos</string>
+    <string name="correo_electronico">Correo Electronico</string>
+    <string name="contra">Contraseña</string>
+    <string name="botonIngresoName">Ingresar</string>
+    <string name="ingreso_con_huella">Ingreso con huella</string>
+    <string name="text_ingreso">Ingresa tus datos para acceder</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="tituloView">TextView</string>
+    <string name="enviar_documentos">Enviar Documentos</string>
+    <string name="ver_documentos">Ver Documentos</string>
+    <string name="ver_oficinas">Ver Oficinas</string>
+    <string name="title_activity_docs">DocsActivity</string>
+    <string name="tituloDocss">TextView</string>
+    <string name="numero_de_documento">Número de documento</string>
+    <string name="nombres_docs_page">Nombres</string>
+    <string name="apellidos_docs_page">Apellidos</string>
+    <string name="texto_boton_enviar">Enviar</string>
+    <string name="envio_de_documentaci_n">Envío de Documentación</string>
+
+    <string-array name="tipoDocumentos">
+        <item>Tipo de documento</item>
+        <item>CC</item>
+        <item>TI</item>
+        <item>CE</item>
+        <item>PA</item>
+    </string-array>
+    <string-array name="tipoAdjuntos">
+        <item>Tipo de adjunto</item>
+        <item>Certif. Cuenta</item>
+        <item>Cédula</item>
+        <item>Factura</item>
+        <item>Incapacidad</item>
+    </string-array>
+    <string-array name="localizaciones">
+        <item>Seleccione sede</item>
+        <item>Chile</item>
+        <item>Estados Unidos</item>
+        <item>Bogotá</item>
+        <item>Medellin</item>
+        <item>Panamá</item>
+        <item>México</item>
+    </string-array>
+    <string name="title_activity_doc_view">DocViewActivity</string>
+    <string name="adjuntar_imagen">Adjuntar Imagen</string>
+</resources>
